@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:layout_height="wrap_content"
+
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_lay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/marginEditTop"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ENTER YOUR NAME"
+                android:inputType="textPersonName"
+                android:textColor="@color/baseDark"
+                android:textColorHint="@color/baseDark"
+                android:focusedByDefault="true"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/marginEditTop"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Email ID"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/baseDark"
+                android:textColorHint="@color/baseDark"
+                android:focusedByDefault="true"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/marginEditTop"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Phone Number"
+                android:inputType="phone"
+                android:textColor="@color/baseDark"
+                android:textColorHint="@color/baseDark"
+                android:focusedByDefault="true"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/marginEditTop"
+            app:passwordToggleEnabled="true"
+
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Choose a Password"
+                android:inputType="textPassword"
+                android:textColor="@color/baseDark"
+                android:textColorHint="@color/baseDark"
+                android:focusedByDefault="false"
+                />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/login"
+        style="@style/style_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_below="@+id/linear_lay2"
+        android:text="@string/signup"
+        />
+
+
+
+
+</RelativeLayout>

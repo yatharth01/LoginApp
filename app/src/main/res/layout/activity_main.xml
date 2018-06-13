@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:App="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:ignore="NamespaceTypo">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/base_grad_dark"
+
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/switch_enable_back"
+        app:tabTextColor="@color/baseLight"
+        App:tabBackground="@color/white"
+        >
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="SIGN IN"
+
+
+            android:visibility="visible" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="SIGN UP"
+
+            android:visibility="visible" />
+
+    </android.support.design.widget.TabLayout>
+
+
+     <FrameLayout
+         android:layout_below="@+id/tablayout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/framelayout"
+         >
+
+     </FrameLayout>
+
+
+
+</RelativeLayout>

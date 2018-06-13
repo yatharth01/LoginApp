@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_halosys_name">Saudi Rail</string>
+    <string name="app_key">5725083</string>
+    <string name="app_secret">b177b4e8-4972-45c5-b0c9-4332065788d5</string>
+    <string name="app_url">http://172.26.60.56:9999/</string>
+
+    <string name="icon_minus">-</string>
+    <string name="icon_plus">+</string>
+
+    <string name="app_name">WELCOME!</string>
+    <string name="book">Book</string>
+    <string name="status_sched"><![CDATA[Train Status & Schedule]]></string>
+    <string name="manage">My Bookings</string>
+    <string name="m_ticket">m-Ticket</string>
+    <string name="more">More</string>
+    <string name="round_trip">Round Trip</string>
+    <string name="one_way">One Way</string>
+    <string name="quick_book">Quick Book</string>
+    <string name="check_fare">Check Fare</string>
+    <string name="error_connect_server">There is some issue connecting to server</string>
+    <string name="sign_now">Sign In Now !</string>
+    <string name="hint_enter_username">Enter Your User Name</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">&#032;Sign Up&#032;</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="skip_now">Skip for Now</string>
+    <string name="new_here">New Here?</string>
+    <string name="hint_leaving">Leaving From</string>
+    <string name="depart">Depart</string>
+    <string name="hint_return">Return</string>
+    <string name="hint_class">Class</string>
+    <string name="hint_concession">Concession</string>
+    <string name="passenger">Passenger</string>
+    <string name="adult_male">Adult - Male</string>
+    <string name="adult_age">12 years and above</string>
+    <string name="children">Children</string>
+    <string name="children_age">2 to 12 years</string>
+    <string name="adult_female">Adult - Female</string>
+    <string name="infant">Infant</string>
+    <string name="infant_age">0 to 2 years</string>
+    <string name="search">Search</string>
+    <string name="hint_going">Going To</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_cart">My Cart</string>
+    <string name="information">Information</string>
+    <string name="main_site">Main Site</string>
+    <string name="faq">FAQ</string>
+    <string name="social_media">Social Media</string>
+    <string name="contact">Contact</string>
+    <string name="login_logout">Login / Logout</string>
+    <string name="err_enter_username">Please provide username</string>
+    <string name="err_enter_password">Password cannot be blank</string>
+    <string name="hint_firstname">First Name</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="hint_your_username">Your User Name</string>
+    <string name="hint_email">Email ID</string>
+    <string name="hint_your_password">Enter Your Password</string>
+    <string name="hint_your_mobile">Your Mobile No</string>
+    <string name="hint_mobile">98271 98271</string>
+    <string name="already_account">Already have an account?</string>
+    <string name="my_booking">Schedule</string>
+    <string name="err_first_name">First Name cannot be empty</string>
+    <string name="err_last_name">Please provide last name;</string>
+    <string name="err_username">Username cannot be empty</string>
+    <string name="err_mobile_code">Please provide mobile number</string>
+    <string name="err_email">Enter proper email address</string>
+    <string name="alphabets">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="err_password_small">Minimum 7 characters</string>
+    <string name="err_password_pattern">Password should contain atleast 1 number</string>
+    <string name="view_route">View Route</string>
+    <string name="economy">Economy</string>
+    <string name="business">Business</string>
+    <string name="tripple">Tripple</string>
+    <string name="ec_tripple">Economy Tripple</string>
+    <string name="fare_basis">Fare basis type</string>
+    <string name="price">Price (Tax included)</string>
+    <string name="tax">Tax</string>
+    <string name="total_price">Total Price</string>
+    <string name="quick_fare_a">Quick Fare A</string>
+    <string name="quick_fare_b">Quick Fare B</string>
+    <string name="quick_fare_d">Quick Fare D</string>
+    <string name="quick_fare_c">Quick Fare C</string>
+    <string name="err_station">Select Station</string>
+    <string name="err_date">Select journey date</string>
+    <string name="err_no_passenger">Please select atleast one passenger</string>
+    <string name="err_max_passenger">Maximum 7 passengers are allowed</string>
+    <string name="err_booking_class">Please select booking class</string>
+    <string name="onward">Onward</string>
+    <string name="return_str">Return</string>
+    <string name="arrow_left">&#9664;</string>
+    <string name="arrow_right">&#9654;</string>
+    <string name="divider">--------------------------------------------------------------------------------------------------------------------------</string>
+    <string name="journey_details">Journey Details</string>
+    <string name="train_change">%s Train Change</string>
+    <string name="train_title">SAR | %s</string>
+    <string name="from">FROM</string>
+    <string name="to">TO</string>
+    <string name="locate_us">Locate Us</string>
+    <string name="fare_basis_info">Fare Basis Info</string>
+
+    <string-array name="fname_title">
+        <item>Mr</item>
+        <item>Mrs</item>
+    </string-array>
+
+    <string-array name="stations">
+        <item>Riyadh</item>
+        <item>Majmaah</item>
+        <item>Qassim</item>
+        <item>Hail</item>
+    </string-array>
+    
+    <string name="Return">Return : </string>
+    <string name="chng">Change train : </string>
+    <string name="postfix_spirit"> The Spirit</string>
+
+</resources>

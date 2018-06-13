@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="marginCard">
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+    </style>
+
+    <style name="marginEditTop" parent="marginCard">
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="marginCardBottom" parent="marginCard">
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+    <style name="marginCardTop" parent="marginCard">
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="marginCardAll" parent="marginCardBottom">
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="marginTextView">
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+    </style>
+
+    <style name="text_view_hint" parent="marginTextView">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/base_grad_light</item>
+    </style>
+
+    <style name="text_view_content" parent="marginTextView">
+        <item name="android:textColor">@color/baseDark</item>
+        <item name="android:textColorHint">@color/switch_enable_back</item>
+    </style>
+
+    <style name="text_heading" parent="marginCard">
+        <item name="android:textColor">@color/base_grad_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_button" parent="marginEditTop">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:background">@color/base_grad_dark</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <!--<item name="tabMaxWidth">@dimen/tab_max_width</item>-->
+        <!--<item name="tabIndicatorColor">?attr/colorAccent</item>-->
+        <item name="tabIndicatorHeight">4dp</item>
+        <!--<item name="tabPaddingStart">12dp</item>-->
+        <!--<item name="tabPaddingEnd">12dp</item>-->
+        <!--<item name="tabBackground">?attr/selectableItemBackground</item>-->
+        <!--<item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>-->
+        <item name="android:textColor">@color/baseLight2</item>
+        <item name="tabSelectedTextColor">@color/baseDark</item>
+    </style>
+
+    <style name="marginVerticalSeparator">
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="marginHorizontalSeparator">
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+</resources>
