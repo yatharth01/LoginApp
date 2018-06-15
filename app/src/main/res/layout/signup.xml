@@ -24,6 +24,7 @@
             style="@style/marginEditTop"
             >
             <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/personName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="ENTER YOUR NAME"
@@ -42,6 +43,7 @@
             style="@style/marginEditTop"
             >
             <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/emailID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Your Email ID"
@@ -59,6 +61,7 @@
             style="@style/marginEditTop"
             >
             <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/phone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Your Phone Number"
@@ -79,6 +82,7 @@
 
             >
             <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Choose a Password"
@@ -90,7 +94,7 @@
         </android.support.design.widget.TextInputLayout>
     </LinearLayout>
     <Button
-        android:id="@+id/login"
+        android:id="@+id/button1"
         style="@style/style_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
