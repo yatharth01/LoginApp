@@ -25,9 +25,10 @@
             style="@style/marginEditTop"
             >
             <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/hint_enter_username"
+                android:hint="Enter Your Email ID"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/baseDark"
                 android:textColorHint="@color/baseDark"
@@ -44,6 +45,7 @@
 
             >
         <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_your_password"
